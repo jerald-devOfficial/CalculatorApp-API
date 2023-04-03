@@ -1,0 +1,23 @@
+# Local Netlify folder
+.netlify
+# .env file containing sensitive information
+.env
+
+# Node.js dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Cache and temporary files
+.cache/
+*.log
+*.tmp
+*.swp
+*.lock
+
+# Operating system and editor specific files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

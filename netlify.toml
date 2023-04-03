@@ -1,0 +1,12 @@
+[build]
+  command = "npm run build"
+  functions = "functions"
+  publish = "build"
+
+[dev]
+  command = "npm start"
+
+[[redirects]]
+  from = "/*"
+  to = "/.netlify/functions/app"
+  status = 200
