@@ -5,7 +5,7 @@
 
 [functions]
   node_bundler = "esbuild"
-  external = ["pg-native"]
+  external_node_modules = ["pg-native"]
 
 [dev]
   command = "npm start"
