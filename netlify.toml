@@ -3,6 +3,10 @@
   functions = "functions"
   publish = "build"
 
+[functions]
+  node_bundler = "esbuild"
+  external = ["pg-native"]
+
 [dev]
   command = "npm start"
 
